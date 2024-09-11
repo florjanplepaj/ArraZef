@@ -1,5 +1,5 @@
 .home-header{
-  background-color: aliceblue;
+  background-color:  rgb(255, 255, 255);
   color: black;
   padding-left: 15px;
   padding-right: 15px;
@@ -8,27 +8,113 @@
   justify-content: space-between;
 
   position: fixed;
+  top: 20;
+  left: 0;
+  right: 0;
+  height: 120px;
+}
+.home-header-top-selection{
+  position: fixed;
+  height: 40px;
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  background-color: rgb(35, 31, 32);
+  display: inline;
+}
+.home-header-left-selection{
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.home-left-and-right-header{
+  background-color:  rgb(255, 255, 255);
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 80px;
 }
 .home-header-right-selection{
-  width: 180px;
+  position: absolute;
+  width: 700px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 20px;
+  top: 0px;
+  right: 0;
+  
+}
+
+
+.logo-link{
+ 
+}
+.arra-zef-logo-1{
+position: absolute;
+width: 280px;
+height: 80px;
+left: 0px;
+top: 8px;
+object-fit: cover;
+
+}
+.arra-zef-logo-2{
+  position: absolute;
+  width: 280px;
+  height: 80px;
+  left: 0px;
+  top: 6px;
+  object-fit: cover;
+  
+}
+.arra-zef-logo{
+  margin: 5px 10px;
+  margin-top: 5px;
+  background-color: transparent;
 }
 
 .header-link {
-  display: inline-block;
-  padding: 6px;
-  border-radius: 2px;
-  cursor: pointer;
+   cursor: pointer;
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0);
+  margin-right: 50px;
+ 
+ 
+} 
+.services-text, .projetct-text, .about-text, .contact-text{
+color: black;
+text-align: center;
+padding: 40px 10px 0px 10px;
+font-family: Open Sans;
 }
-.arra-zef-logo{
-  width: 100px;
-  margin-top: 5px;
+.services-text:hover, .projetct-text:hover, .about-text:hover, .contact-text:hover{
+  color: red;
+  text-align: center;
+  padding: 40px 10px 40px 10px;
 }
-.home-header-right-selection{
-  
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+}
+
+.f1 {
+  top: 10px; 
+  right: 20px;
+}
+.f2 {
+  top: 10px; 
+  right: 60px; 
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
