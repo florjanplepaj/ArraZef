@@ -1,0 +1,34 @@
+.home-header{
+  background-color: aliceblue;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+.home-header-right-selection{
+  width: 180px;
+}
+
+.header-link {
+  display: inline-block;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.arra-zef-logo{
+  width: 100px;
+  margin-top: 5px;
+}
+.home-header-right-selection{
+  
+}
