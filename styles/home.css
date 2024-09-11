@@ -1,4 +1,11 @@
-.p{
-  height: auto;
+.photo-grid {
+  display: grid;
+  grid-template-columns: 300 px1fr; /* Adjusted to fit the content */
+  margin-top: 10px;
+}
 
+.photo-size {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 1500px; 
 }
