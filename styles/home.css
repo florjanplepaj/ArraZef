@@ -1,11 +1,26 @@
-.photo-grid {
-  display: grid;
-  grid-template-columns: 300 px1fr; /* Adjusted to fit the content */
+.grid-images {
+  position: relative; /* Set container to relative so text can be positioned within it */
   margin-top: 10px;
+  height: 600px;
+  width: 1fr;
 }
 
 .photo-size {
-  width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 1500px; 
+  width: 100%;
+  height: 100%;
+}
+
+.slogan-text {
+  position: absolute;
+  top: 40%;
+  left: 10%; 
+  right: 50%;
+  transform: translate(-15%, -25%);
+  color: white; 
+  font-size: 76px; 
+  font-weight: bold;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7); /* Optional: adds a shadow for readability */
+  z-index: 1;
+  text-align: left;
+  cursor: pointer;
 }

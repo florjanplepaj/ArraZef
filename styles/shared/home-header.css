@@ -2,7 +2,7 @@
   background-color: rgb(255, 255, 255);
   color: black;
   display: grid;
-  grid-template-columns: 570px 1fr;
+  grid-template-columns: 540px 1fr;
   align-items: center;
   height: 120px;
   z-index: 200;
@@ -23,16 +23,15 @@
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 0 0 15px;
 }
 
 .home-header-right-selection {
   height: 80px;
-  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 15px;
 }
 
 .arra-zef-logo-1 {
@@ -48,7 +47,7 @@
   position: relative;
   width: 280px;
   height: 80px;
-  left: -290px;
+  left: -270px;
   top: 6px;
   object-fit: cover;
 }
@@ -68,14 +67,18 @@
 .services-text, .projetct-text, .about-text, .contact-text {
   color: black;
   text-align: center;
-  padding: 40px 10px 0px 10px;
+  font-weight: 500;
+  padding: 20px 40px;
   font-family: Open Sans;
+  transition: border-radius 0.5s, background-color 1.5s;
 }
 
 .services-text:hover, .projetct-text:hover, .about-text:hover, .contact-text:hover {
-  color: red;
+  color: black;
+  background-color: rgb(74, 73, 107);
   text-align: center;
-  padding: 40px 10px 40px 10px;
+  border-radius: 25%;
+ 
 }
 
 .fa {
