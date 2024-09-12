@@ -71,6 +71,7 @@
   cursor: pointer;
   text-decoration: none;
   padding: 15px 25px;
+  opacity: 0.8;
 }
 
 .services-text, .projetct-text, .about-text, .contact-text {
@@ -80,34 +81,63 @@
   padding: 10px 20px;
   font-family: 'Open Sans', sans-serif;
   transition: border-radius 0.5s, background-color 1.5s;
+  
 }
 
 .services-text:hover, .projetct-text:hover, .about-text:hover, .contact-text:hover {
   color: black;
-  background-color: rgb(74, 73, 107);
-  border-radius: 25%;
+  opacity: 1;
 }
 
 .fa {
-  font-size: 30px;
-  width: 50px;
+  font-size: 60px;
+  height: 20px;
+  padding: 5px 6px 2px 6px;
+  color: wheat;
   text-align: center;
   text-decoration: none;
   position: absolute;
+  border-width: 3px;
+  border-color: brown;
+  transition: background-color 1s;
+ 
 }
 
 .f1 {
-  top: 10px;
-  right: 20px;
+  top: 6px;
+  right: 2%;
+  border-radius: 100%;
 }
 
 .f2 {
-  top: 10px;
-  right: 60px;
+  
+  top: 6px;
+  right: 5%;  
+  border-radius: 10px;
+  
+  border-color: wheat;
+  border-width: 2px;
+  
 }
 
-.fa:hover {
-  opacity: 0.7;
+.f1:hover {
+   
+  background-color: blue;
+  border-radius: 100%;
+}
+.f2:hover {
+   
+  background-color: rgb(209, 87, 108);
+  border-radius: 100%;
+}
+.phone-number{
+  position: absolute;
+  right: 10%;
+  top: 1%;
+  color: wheat;
+}
+.phone-number:hover{
+  cursor: pointer;
 }
 
 /* Responsive Adjustments */
@@ -153,7 +183,7 @@
   }
 }
 
-@media (min-width: 330px) and (max-width: 650px) {
+@media  (max-width: 650px) {
   .home-header {
     grid-template-columns: 1fr; /* Single column layout */
   }
@@ -192,5 +222,15 @@
     padding: 0;
     display: contents;
     align-items: end;
+  }
+  .f1{
+    right: 2%;
+  }
+  .f2{
+    right: 6.5%;
+  }
+  .phone-number{
+    right: 14%;
+    top: 1%;
   }
 }
