@@ -8,6 +8,7 @@
   z-index: 200;
 }
 
+
 .home-header-top-selection {
   grid-column: 1 / span 2;
   height: 40px;
@@ -28,10 +29,12 @@
 
 .home-header-right-selection {
   height: 80px;
+  width: 750px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
+  margin-left: 200px;
 }
 
 .arra-zef-logo-1 {
@@ -102,3 +105,4 @@
 .fa:hover {
   opacity: 0.7;
 }
+

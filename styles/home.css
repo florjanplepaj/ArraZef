@@ -1,8 +1,8 @@
 .grid-images {
-  position: relative; /* Set container to relative so text can be positioned within it */
+  position: relative; 
   margin-top: 10px;
-  height: 600px;
-  width: 1fr;
+  height: 700px; /* Adjusted height for better visibility */
+  width: 100%; /* Full width for responsiveness */
 }
 
 .photo-size {
@@ -23,4 +23,57 @@
   z-index: 1;
   text-align: left;
   cursor: pointer;
+}
+.firs-info{
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  margin: 40px 120px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+
+.first-photo-info{
+  width: 100%;
+  box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.5);
+
+}
+.first-photo-bricks{
+position: absolute;
+height: 200px;
+bottom: -40px;
+left: -50px;
+}
+.firs-text-info{
+  margin: 10px 40px;
+}
+.firs-text-grid{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  position: relative;  
+  margin-left: 40px;
+}
+.text-body{
+  display: grid;
+  grid-template-rows: 90px 1fr;
+  padding-top: 30px;
+}
+.text-line{
+  position: flex;
+  width: 10px; 
+  height: 90%; 
+  align-self: center;
+  background-color: rgb(253, 185, 39);
+  border-radius: 4px;
+}
+.text-title{
+font-family: Open Sans, Sans Serif;
+font-size: 25px;
+font-weight: 600;
+padding-top: 40px;
+}
+.text-body-info{
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
 }
