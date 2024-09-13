@@ -1,6 +1,6 @@
 .grid-images {
-  position: relative; 
-  margin-top: 10px;
+  position: relative;
+  margin-top: 0px;
   height: 700px;
   width: 100%;
 }
@@ -13,11 +13,11 @@
 .slogan-text {
   position: absolute;
   top: 40%;
-  left: 10%; 
+  left: 10%;
   right: 50%;
   transform: translate(-15%, -25%);
-  color: white; 
-  font-size: 76px; 
+  color: white;
+  font-size: 76px;
   font-weight: bold;
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
   z-index: 1;
@@ -69,8 +69,8 @@
 }
 
 .text-line {
-  width: 10px; 
-  height: 90%; 
+  width: 10px;
+  height: 90%;
   align-self: center;
   background-color: rgb(253, 185, 39);
   border-radius: 4px;
@@ -88,7 +88,52 @@
   font-weight: 400;
   font-size: 16px;
 }
+.statistic-info {
+  padding-top: 64px;
+  padding-bottom: 94px;
+}
 
+.statistics-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inside-div-statistic-grid {
+  width: 280px;
+  height: 144px;
+  display: grid;
+  grid-template-rows: 70px 1fr;
+  padding: 0 5px 0 20px;
+}
+.statistic-line {
+  background-color: rgb(107, 110, 122);
+  width: 1px;
+  height: 140px;
+  opacity: 0.7;
+  border-radius: 100%;
+}
+.statistics-value {
+  display: contents;
+}
+.statistics-text {
+  display: contents;
+  height: 69px;
+}
+.statistics-value-text {
+  font-size: 69px;
+  font-family: Teko, sans-serif;
+  font-weight: 600;
+  color: rgb(8, 22, 59);
+  line-height: 69px;
+  text-align: center;
+}
+.statistics-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(107, 110, 122);
+  text-align: center;
+  padding-top: 40px;
+}
 
 @media (min-width: 651px) and (max-width: 960px) {
   .firs-info {
@@ -116,7 +161,7 @@
     width: auto;
     height: auto;
   }
-  
+
   .first-photo-bricks {
     height: 200px;
     bottom: -4%;
@@ -124,8 +169,8 @@
   }
 
   .text-line {
-    width: 10px; 
-    height: 90%; 
+    width: 10px;
+    height: 90%;
     align-self: center;
     background-color: rgb(253, 185, 39);
     border-radius: 4px;
@@ -174,7 +219,7 @@
     width: auto;
     height: auto;
   }
-  
+
   .first-photo-bricks {
     height: 50%;
     bottom: -7%;
@@ -203,30 +248,29 @@
   }
 }
 
-
-@media (min-width: 330px) and (max-width: 650px) {
+@media (max-width: 650px) {
   .slogan-text {
-    color: white; 
+    color: white;
     top: 50%;
-    font-size: 36px; 
+    font-size: 36px;
   }
-  
+
   .grid-images {
-    position: relative; 
-    margin-top: 10px;
+    position: relative;
+    margin-top: 0px;
     height: 400px;
     width: 100%;
   }
-  
+
   .photo-size {
     width: 100%;
     height: 100%;
   }
-  
+
   .firs-info {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    margin: 20px 10px;
+    margin: 20px 10px 0px 10px;
     padding: 20px;
   }
 
@@ -241,23 +285,23 @@
   }
 
   .firs-text-info {
-    margin: 20px 10px;
+    margin: 20px 0px 0px 0px;
   }
 
   .first-photo-info img {
     width: auto;
     height: auto;
   }
-  
+
   .first-photo-bricks {
-    height: 200px;
+    height: 125px;
     bottom: -4%;
     left: -3%;
   }
 
   .text-line {
-    width: 10px; 
-    height: 90%; 
+    width: 10px;
+    height: 90%;
     align-self: center;
     background-color: rgb(253, 185, 39);
     border-radius: 4px;
@@ -265,7 +309,7 @@
 
   .text-title {
     font-family: Open Sans, Sans Serif;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     padding-top: 0;
   }
@@ -278,5 +322,135 @@
     font-weight: 400;
     font-size: auto;
     padding: 0;
+  }
+
+  .statistic-info {
+    padding-top: 0px;
+    padding-bottom: 24px;
+  }
+  .statistics-grid {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+  }
+  .inside-div-statistic-grid {
+    grid-template-rows: 70px 1fr;
+    padding: 0 0px 0 0px;
+    align-items: center;
+  }
+
+  .statistic-line {
+    height: 1px;
+    width: 90%;
+    border-radius: 0%;
+    padding-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  .statistics-value {
+    display: contents;
+  }
+  .statistics-text {
+    display: contents;
+    height: 69px;
+  }
+  .statistics-value-text {
+    font-size: 67px;
+    font-weight: 600;
+    color: rgb(8, 22, 59);
+    line-height: 69px;
+  }
+  .statistics-text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+  }
+}
+@media (min-width: 1701px) and (max-width: 2700px) {
+  .grid-images {
+    margin-top: 0px;
+  }
+  .firs-info {
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 40px;
+    padding: 20px;
+  }
+  .grid-images {
+    margin-top: 0px;
+    height: 90%;
+    width: 100%;
+  }
+  .slogan-text {
+    top: 50%;
+    font-size: 120px;
+  }
+  .first-photo-div-info {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .firs-text-grid {
+    grid-template-columns: 40px 1fr;
+    margin: 20px 0;
+  }
+
+  .firs-text-info {
+    margin: 20px 10px;
+  }
+
+  .first-photo-bricks {
+    height: 60%;
+    bottom: -7%;
+    left: -4%;
+  }
+
+  .text-line {
+    width: 10px;
+    height: 90%;
+    align-self: center;
+    background-color: rgb(253, 185, 39);
+    border-radius: 4px;
+  }
+
+  .text-title {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+
+  .text-body-info {
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .statistic-info {
+    padding-top: 84px;
+    padding-bottom: 94px;
+  }
+
+  .statistics-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .inside-div-statistic-grid {
+    width: 480px;
+    height: 204px;
+    display: grid;
+    grid-template-rows: 90px 1fr;
+    padding: 40px 5px 0 20px;
+  }
+  .statistic-line {
+    width: 1px;
+    height: 200px;
+    opacity: 0.7;
+    border-radius: 100%;
+  }
+  .statistics-value-text {
+    font-size: 89px;
+  }
+  .statistics-text {
+    font-size: 26px;
   }
 }
