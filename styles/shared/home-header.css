@@ -185,6 +185,12 @@
     display: contents;
     align-items: end;
   }
+  .fab {
+    font-size: 19px !important;
+  }
+  .f1 {
+    right: 1%;
+  }
 }
 
 @media (max-width: 650px) {

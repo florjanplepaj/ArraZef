@@ -145,7 +145,7 @@
   position: relative;
 }
 .title-cover {
-  width: 540px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -441,6 +441,31 @@
     font-size: 16px;
     font-weight: 400;
     padding-top: 40px;
+  }
+
+  .recent-projects-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .button-cover {
+    flex: 1;
+  }
+  .recent-projects-top {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .title-cover-text {
+    text-align: center;
+    font-size: 51px;
+  }
+  .title-cover {
+    align-items: center;
+  }
+  .projects {
+    grid-template-rows: 200px 1fr;
+  }
+  .button-view-all {
+    left: 15%;
   }
 }
 @media (min-width: 1701px) and (max-width: 2700px) {
