@@ -135,6 +135,83 @@
   padding-top: 40px;
 }
 
+.projects {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
+.recent-projects-top {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.title-cover {
+  width: 540px;
+  align-items: center;
+  justify-content: center;
+}
+.title-cover-text {
+  color: rgb(8, 22, 59);
+  font-size: 51px;
+  font-family: Teko, sans-serif;
+  padding-left: 20%;
+}
+.button-cover {
+  flex: 1;
+}
+.button-view-all {
+  background-color: rgb(255, 193, 42);
+  color: rgb(8, 22, 59);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Teko, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-color: none;
+  padding: 20px 40px;
+  border-width: 0px;
+  position: absolute;
+  right: 20%;
+}
+.button-view-all-text {
+  padding-right: 10px;
+}
+.recent-projects-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.recent-projects-preview {
+  position: relative;
+}
+
+.recent-projects-preview:hover {
+  opacity: 0.8;
+}
+
+.recent-project-photo {
+  width: 100%;
+  height: 100%;
+}
+.recent-project-title,
+.recent-project-view-project-button {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  transform: translate(-15%, -25%);
+  font-size: 40px;
+  color: rgb(255, 2555, 255);
+  font-family: Teko, sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+}
+.recent-project-view-project-button {
+  bottom: 0%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.recent-project-view-project-button:hover {
+  color: rgb(255, 193, 42);
+}
+
 @media (min-width: 651px) and (max-width: 960px) {
   .firs-info {
     grid-template-columns: 1fr;
