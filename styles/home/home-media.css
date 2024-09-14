@@ -2,13 +2,13 @@
   .slogan-text {
     color: white;
     top: 50%;
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .grid-images {
     position: relative;
     margin-top: 0px;
-    height: 400px;
+    height: 300px;
     width: 100%;
   }
 

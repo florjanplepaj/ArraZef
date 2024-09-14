@@ -1,0 +1,211 @@
+@media (max-width: 380px) {
+  .footer-div-grid {
+    grid-template-rows: 1fr 50px;
+    height: 100%;
+  }
+
+  .footer-top-container {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .footer-bottom-container {
+    width: 100%;
+  }
+  .footer-top-container {
+    display: grid;
+    grid-template-rows: 250px 250px 250px 340px;
+  }
+  .footer-right-menu-title,
+  .footer-right-titile,
+  .footer-center-titile {
+    padding: 0;
+    margin-bottom: 20%;
+  }
+  .footer-right-menu-title {
+    margin-bottom: 0%;
+  }
+  .footer-left-photo-logo-1,
+  .footer-left-photo-logo-2 {
+    top: 0;
+    left: 10%;
+    width: 250px;
+  }
+  .footer-left-container-title {
+    font-size: 35px !important;
+    text-align: center;
+  }
+  .footer-left-container-title-body {
+    padding-top: 70px;
+    padding-left: 30px;
+  }
+  .fat1 {
+    top: -135%;
+    left: 35%;
+  }
+  .fat2 {
+    top: -150%;
+  }
+  .footer-bottom-left,
+  .footer-bottom-right {
+    font-size: 7px;
+  }
+}
+@media (min-width: 381px) and (max-width: 650px) {
+  .footer-div-grid {
+    grid-template-rows: 1fr 50px;
+    height: 100%;
+  }
+
+  .footer-top-container {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .footer-bottom-container {
+    width: 100%;
+  }
+  .footer-top-container {
+    display: grid;
+    grid-template-rows: 250px 250px 250px 350px;
+  }
+  .footer-right-menu-title,
+  .footer-right-titile,
+  .footer-center-titile {
+    padding: 0;
+    margin-bottom: 20%;
+  }
+  .footer-right-menu-title {
+    margin: 0;
+  }
+  .footer-left-photo-logo-1,
+  .footer-left-photo-logo-2 {
+    top: 0;
+    left: 15%;
+  }
+  .footer-left-container-title {
+    font-size: 45px;
+    text-align: center;
+  }
+  .footer-left-container-title-body {
+    padding-top: 70px;
+  }
+  .fat1 {
+    top: -135%;
+    left: 35%;
+  }
+  .fat2 {
+    top: -150%;
+    left: 50%;
+  }
+  .footer-bottom-left,
+  .footer-bottom-right {
+    font-size: 8px;
+  }
+}
+@media (min-width: 651px) and (max-width: 960px) {
+  .footer-top-container {
+    padding: 15px 40px;
+  }
+  .footer-div-grid {
+    grid-template-rows: 1fr 40px;
+    height: 370px;
+    padding-bottom: 0;
+  }
+  .footer-left-photo-logo-2 {
+    width: 180px;
+    top: 20%;
+    left: -3%;
+  }
+  .footer-left-photo-logo-1 {
+    width: 180px;
+    top: 20%;
+    left: -1%;
+  }
+  .footer-left-container-title {
+    font-size: 20px;
+    left: 0;
+  }
+  .footer-left-container-title-body {
+    margin-top: 40px;
+  }
+  .footer-center-titile,
+  .footer-right-titile,
+  .footer-right-menu-title {
+    font-size: 25px;
+  }
+  .footer-center-contact-email {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .email,
+  .phone-number2,
+  .footer-left-container-location,
+  .footer-right-menu-body-text-text {
+    font-size: 19px !important;
+    margin-left: 0;
+  }
+  .footer-right-menu-body {
+    flex: 2;
+  }
+  .footer-center-contact-phone,
+  .phone-number2,
+  .footer-center-contact-email,
+  .fas {
+    font-size: 19px;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 1350px) and (max-width: 1500px) {
+}
+
+@media (min-width: 961px) and (max-width: 1340px) {
+  .footer-top-container {
+    padding: 15px 40px;
+  }
+  .footer-div-grid {
+    grid-template-rows: 1fr 40px;
+    height: 370px;
+    padding-bottom: 0;
+  }
+  .footer-left-photo-logo-2 {
+    width: 200px;
+    top: 20%;
+    left: -1%;
+  }
+  .footer-left-photo-logo-1 {
+    width: 200px;
+    top: 20%;
+    left: -1%;
+  }
+  .footer-left-container-title {
+    font-size: 25px;
+    left: 0;
+  }
+  .footer-left-container-title-body {
+    margin-top: 40px;
+  }
+  .footer-center-titile,
+  .footer-right-titile,
+  .footer-right-menu-title {
+    font-size: 29px;
+  }
+  .footer-center-contact-email {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .email,
+  .phone-number2,
+  .footer-left-container-location,
+  .footer-right-menu-body-text-text {
+    font-size: 19px !important;
+    margin-left: 0;
+  }
+  .footer-right-menu-body {
+    flex: 2;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 2700px) {
+}

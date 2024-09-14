@@ -77,6 +77,9 @@
   .fab {
     font-size: 19px;
   }
+  .fass {
+    display: none !important;
+  }
 }
 @media (min-width: 651px) and (max-width: 800px) {
   .home-header {
@@ -127,6 +130,12 @@
   }
   .f1 {
     right: 1%;
+  }
+  .fass {
+    display: none !important;
+  }
+  .title-cover-text {
+    padding-left: 10%;
   }
 }
 @media (min-width: 901px) and (max-width: 1700px) {

@@ -218,4 +218,25 @@
   border-radius: 150%;
   margin-top: 2%;
 }
-
+.footer-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-left {
+  color: wheat;
+  font-size: 12px;
+  padding-left: 5%;
+}
+.footer-bottom-right {
+  color: wheat;
+  font-size: 12px;
+  padding-right: 5%;
+}
+.line-copyright {
+  height: 90%;
+  width: 2px;
+  background-color: wheat;
+  border-radius: 50%;
+}
