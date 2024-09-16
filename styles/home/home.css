@@ -171,6 +171,7 @@
   border-width: 0px;
   position: absolute;
   right: 20%;
+  cursor: pointer;
 }
 .button-view-all-text {
   padding-right: 10px;
@@ -183,6 +184,7 @@
 .recent-projects-preview {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .recent-projects-preview:hover {
@@ -220,49 +222,91 @@
 .services-grid {
   width: 1fr;
   display: grid;
-  grid-template-rows: 100px 150px;
-  grid-template-columns: 1f 1fr;
+  grid-template-rows: 100px 1fr;
   align-items: center;
   justify-content: center;
   justify-items: center;
-  margin-top: 25px;
+  margin-top: 100px;
 }
 .services-uper-title {
   color: rgb(8, 22, 59);
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   font-family: Teko, sans-serif;
   text-align: center;
 }
 .services-kind-grid {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 0px;
-  justify-content: space-between;
-  gap: 155px;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
 }
 .service-kind-items {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 20px 30px;
+  padding: 20px 10px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.4);
+  color: rgb(8, 22, 59);
+  font-weight: 500;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center; /* Centers the background image */
 }
+
+.service-kind-items-construction:hover {
+  background-image: url("../../Image/Logos/services-phtot-5.jpg");
+  color: white;
+}
+
+.service-kind-items-maintenance:hover {
+  background-image: url("../../Image/Logos/services-phtot-3.jpg");
+  color: white;
+}
+
+.service-kind-items-renovation:hover {
+  background-image: url("../../Image/Logos/services-phtot-1.jpg");
+  color: white;
+}
+
+.service-kind-items-restoration:hover {
+  background-image: url("../../Image/Logos/services-phtot-4.jpg");
+  color: black;
+}
+
+.service-kind-items-keys:hover {
+  background-image: url("../../Image/Logos/services-phtot-2.jpg");
+  color: rgb(0, 0, 0);
+}
+
 .service-kind-items-photo {
   flex: 1;
-  width: 90px;
+  width: 70px;
+  height: 100%;
   border-radius: 20%;
   background-color: transparent;
   margin-right: 15px;
 }
 
 .services-kind-up-text {
-  color: rgb(8, 22, 59);
   font-size: 35px;
-  font-weight: 400;
   font-family: Teko, sans-serif;
   text-align: center;
 }
 .services-line {
   display: none;
+}
+.services-kind-up-text-text {
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  padding: 5px 20px 20px 20px;
 }

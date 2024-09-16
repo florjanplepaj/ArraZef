@@ -195,6 +195,7 @@
 .footer-right-menu-body-text {
   padding-left: 30%;
   align-items: center;
+  cursor: pointer;
 }
 .footer-right-menu-body-text-text {
   font-size: 30px;
@@ -221,13 +222,18 @@
 .footer-bottom-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
-.footer-bottom-left {
+.footer-bottom-left,
+.freepik {
   color: wheat;
   font-size: 12px;
-  padding-left: 5%;
+  padding-left: 0%;
+}
+.freepik {
+  cursor: pointer;
+  text-decoration: underline;
 }
 .footer-bottom-right {
   color: wheat;
