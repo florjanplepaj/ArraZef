@@ -144,7 +144,7 @@
 }
 .footer-right-titile {
   text-align: center;
-  flex: 3;
+  flex: 1;
   color: rgb(107, 110, 122);
   font-family: Teko, sans-serif;
   font-size: 40px;
@@ -153,8 +153,9 @@
 }
 .footer-right-body {
   font-size: 20px;
-  flex: 7;
+  flex: 2.4;
   text-align: center;
+  cursor: pointer;
 }
 .footer-left-container-location {
   font-size: 30px;
@@ -179,7 +180,7 @@
   flex-direction: column;
 }
 .footer-right-menu-body {
-  flex: 1;
+  flex: 2.2;
   align-items: center;
   justify-content: center;
 }

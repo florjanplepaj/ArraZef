@@ -1,0 +1,131 @@
+@media (max-width: 1200px) {
+  .form-flex {
+    height: auto;
+    align-items: start;
+    margin: 20px 20px;
+  }
+  .form-right {
+    height: 55%;
+    padding: 40px 10px;
+  }
+  .form-image {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
+}
+@media (max-width: 500px) {
+  .contact-left-div,
+  .contact-center-div,
+  .contact-right-div {
+    flex: 1;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 15px 10px;
+  }
+
+  .faw {
+    font-size: 12px !important;
+  }
+  .constact-title,
+  .contact-us-title {
+    font-size: 18px;
+  }
+  .contact-body,
+  .contact-top-contact-us-slogan {
+    font-size: 16px;
+  }
+  .form-right {
+    padding: 0px 5px;
+  }
+  .form-flex {
+    margin: 10px 10px;
+  }
+  .contact-trio {
+    row-gap: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact-trio {
+    row-gap: 15px;
+  }
+  .form-right,
+  .form-container {
+    row-gap: 5px;
+  }
+  .form-left {
+    margin-left: 7%;
+  }
+}
+@media (min-width: 600px) and (max-width: 3200px) {
+  .form-flex {
+    height: auto;
+    align-items: center;
+    margin: 20px 20px;
+  }
+  .form-right {
+    height: 100%;
+    padding: 30px 10px;
+    justify-content: space-between;
+  }
+  .form-left {
+    width: 90%;
+  }
+  .form-image {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
+  .form-container {
+    font-size: 20px;
+    max-height: 100px;
+    margin: 5px 10px;
+    padding: 0px 5px;
+  }
+  .form-message-title {
+    height: 45px;
+  }
+  .form-message-text {
+    max-height: 500px;
+  }
+  .form-container-text {
+    margin: 5px 10px;
+    padding: 0 5px;
+  }
+  .contact-trio {
+    margin-top: 50px;
+  }
+
+  .form-phone-text,
+  .form-subject,
+  .form-message-title,
+  .form-email-text,
+  .form-name {
+    font-size: 24px;
+  }
+  .form-message-text {
+    font-size: 24px;
+  }
+  .form-message-text::placeholder {
+    font-size: 24px;
+  }
+  .form-message-text-text {
+    font-size: 24px;
+  }
+  .form-button {
+    margin: 2px 9px 0 10px;
+    padding: 10px 0 5px 0;
+    width: 98.5%;
+  }
+}
+@media (min-width: 1120px) and (max-width: 1620px) {
+  .form-left {
+    justify-items: center;
+  }
+  .form-image {
+    width: 970%;
+    height: 100%;
+    border-radius: 1%;
+  }
+}

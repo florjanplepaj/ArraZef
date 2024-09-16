@@ -16,7 +16,7 @@
   top: 7%;
   left: 13%;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: Open sans, sans-serif;
   color: rgb(198, 93, 7);
 }
@@ -25,17 +25,21 @@
   top: 17%;
   left: 13%;
   font-size: 51px;
+  font-weight: 700;
   font-family: Open sans, sans-serif;
   color: rgb(198, 93, 7);
 }
 .form-flex {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   margin: 40px 40px;
   align-items: center;
   height: 700px;
+  justify-content: space-between;
+  column-gap: 25px;
 }
 .form-left {
+  flex: 1;
   display: contents;
 }
 .form-image {
@@ -49,12 +53,21 @@
   flex-direction: column;
   max-height: 55px;
 }
+.form-phone-text,
+.form-subject,
+.form-message-title,
+.form-email-text,
+.form-name {
+  font-weight: 500;
+}
 .form-message-text {
   flex: 1;
   font-size: 16px;
+  font-weight: 500;
   max-height: 30px;
   resize: vertical;
-  padding: 0px 10px;
+  padding: 5px 10px;
+  text-transform: capitalize;
 }
 .form-message-text::placeholder {
   font-size: 16px;
@@ -70,6 +83,7 @@
   overflow-y: auto;
   text-align: left;
   justify-content: top;
+  text-transform: capitalize;
 }
 .form-container-text {
   flex: 3;
@@ -81,6 +95,7 @@
   height: 25px;
 }
 .form-right {
+  flex: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -103,4 +118,50 @@
 }
 .form-button:active {
   opacity: 0.8;
+}
+.contact-trio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  column-gap: 20px;
+  padding: 10px 30px;
+  overflow: hidden;
+}
+.contact-left-div,
+.contact-center-div,
+.contact-right-div {
+  flex: 1;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 15px 10px;
+}
+.contact-left-div:hover,
+.contact-center-div:hover,
+.contact-right-div:hover {
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.8);
+}
+.faw {
+  background-color: rgb(195, 177, 133);
+  color: rgb(255, 193, 42);
+  font-size: 25px !important;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+.constact-title {
+  font-family: Teko, sans-serif;
+  color: grey;
+  font-size: 50px;
+}
+.contact-body {
+  font-family: Teko, sans-serif;
+  font-size: 40px;
+  color: rgb(8, 22, 59);
+  text-wrap: nowrap;
+}
+.email3,
+.phone-number3,
+.address3 {
+  color: rgb(8, 22, 59);
 }
