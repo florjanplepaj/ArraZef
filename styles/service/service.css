@@ -1,0 +1,92 @@
+.services-top-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+  cursor: pointer;
+}
+
+.service-top-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(255, 255, 204);
+  margin: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+.service-top-title:hover,
+.service-top-sub-title:hover,
+.service-top-subtitle:hover {
+  color: whitesmoke;
+}
+
+.service-top-sub-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(255, 255, 204);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.service-top-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 204);
+  margin-top: 10px;
+  text-align: center;
+}
+.service-body-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  background-color: whitesmoke;
+}
+.service-body-type-flex {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 3px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.service-body-type-flex:hover {
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 204);
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.service-body-left {
+  flex: 2;
+  padding: 10px 20px;
+}
+.service-body-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+.service-body-title {
+  height: 50px;
+  font-family: Open sans, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.service-body-right-body {
+  flex: 1;
+  font-family: Open sans, sans-serif;
+}
+
+.service-image-type {
+  width: 100%;
+  height: 250px;
+  border-radius: 5%;
+}

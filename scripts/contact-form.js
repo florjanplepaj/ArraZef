@@ -38,11 +38,17 @@ function formPost(formData) {
         alert("Message sent successfully!");
         clearForm();
       } else {
-        alert("Error sending message. Please try again.");
+        alert(
+          "Error sending message. Please try again. If still is a problem try contacting directly in gmail"
+        );
       }
     })
     .catch((error) => {
-      alert("There was an error: " + error.message);
+      alert(
+        "There was an error: " +
+          error.message +
+          " If still is a problem try contacting directly in gmail"
+      );
     });
 }
 
