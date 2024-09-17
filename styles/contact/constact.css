@@ -30,28 +30,48 @@
   color: rgb(198, 93, 7);
 }
 .form-flex {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 40px 40px;
   align-items: center;
-  height: 700px;
-  justify-content: space-between;
-  column-gap: 25px;
+  height: auto;
 }
 .form-left {
-  flex: 1;
-  display: contents;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-right {
+  height: 100%;
+  width: auto;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-right-div {
+  width: auto;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 10px 40px 1%;
+
+  background-color: lightgray;
+  border-radius: 5%;
 }
 .form-image {
-  height: 500px;
-  width: auto;
-  border-radius: 5px;
+  flex: 0.9;
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
 }
 .form-container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  max-height: 55px;
+  max-height: 100px;
+  max-width: 800px;
 }
 .form-phone-text,
 .form-subject,
@@ -67,7 +87,10 @@
   max-height: 30px;
   resize: vertical;
   padding: 5px 10px;
-  text-transform: capitalize;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  max-width: 700px;
 }
 .form-message-text::placeholder {
   font-size: 16px;
@@ -77,13 +100,16 @@
   flex: 1;
   font-size: 16px;
   min-height: 100px;
-  padding: 10px;
+  padding: 5px 10px;
   box-sizing: border-box;
   resize: vertical;
   overflow-y: auto;
   text-align: left;
-  justify-content: top;
   text-transform: capitalize;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  max-width: 722px;
 }
 .form-container-text {
   flex: 3;
@@ -94,13 +120,7 @@
 .form-message-title {
   height: 25px;
 }
-.form-right {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-}
+
 .form-button {
   width: 100%;
   background-color: rgb(255, 193, 42);
@@ -115,6 +135,7 @@
   cursor: pointer;
   margin-top: 15px;
   border-radius: 12px;
+  max-width: 722px;
 }
 .form-button:active {
   opacity: 0.8;
@@ -126,6 +147,7 @@
   justify-content: space-between;
   text-align: center;
   column-gap: 20px;
+  row-gap: 15px;
   padding: 10px 30px;
   overflow: hidden;
 }

@@ -1,29 +1,38 @@
-@media (max-width: 1200px) {
+@media (min-width: 300px) and (max-width: 500px) {
   .form-flex {
+    grid-template-columns: 1fr;
+    align-items: center;
     height: auto;
-    align-items: start;
-    margin: 20px 20px;
-  }
-  .form-right {
-    height: 55%;
-    padding: 40px 10px;
+    margin: 10px 15px;
   }
   .form-image {
-    height: auto;
-    width: auto;
-    overflow: hidden;
-  }
-}
-@media (max-width: 500px) {
-  .contact-left-div,
-  .contact-center-div,
-  .contact-right-div {
     flex: 1;
-    cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-    padding: 15px 10px;
+    width: 200px;
+    height: 300px;
   }
-
+  .form-right {
+    margin-top: 10%;
+    padding-left: 0;
+    row-gap: 15px;
+  }
+  .form-right-div {
+    max-height: 600px;
+    padding-left: 5px;
+  }
+  .form-message-text,
+  .form-message-text-text {
+    border-width: 1px !important;
+  }
+  .contact-us-title {
+    font-size: 24px;
+    left: 10px;
+    top: 55%;
+  }
+  .contact-top-contact-us-slogan {
+    font-size: 12px;
+    left: 10px;
+    top: 48%;
+  }
   .faw {
     font-size: 12px !important;
   }
@@ -35,97 +44,99 @@
   .contact-top-contact-us-slogan {
     font-size: 16px;
   }
-  .form-right {
-    padding: 0px 5px;
-  }
-  .form-flex {
-    margin: 10px 10px;
-  }
-  .contact-trio {
-    row-gap: 15px;
+  .constact-trio {
+    column-gap: 15px;
+    gap: 5px;
   }
 }
-
-@media (max-width: 1200px) {
-  .contact-trio {
-    row-gap: 15px;
-  }
-  .form-right,
-  .form-container {
-    row-gap: 5px;
-  }
-  .form-left {
-    margin-left: 7%;
-  }
-}
-@media (min-width: 600px) and (max-width: 3200px) {
+@media (min-width: 501px) and (max-width: 800px) {
   .form-flex {
-    height: auto;
+    grid-template-columns: 1fr;
     align-items: center;
-    margin: 20px 20px;
+    height: auto;
   }
   .form-right {
-    height: 100%;
-    padding: 30px 10px;
-    justify-content: space-between;
+    margin-top: 10%;
+    padding-left: 0;
+    row-gap: 15px;
   }
-  .form-left {
-    width: 90%;
+  .form-right-div {
+    max-height: 600px;
+  }
+  .form-container,
+  .form-container-text {
+    margin: 5px;
+    row-gap: 3px;
   }
   .form-image {
-    height: auto;
-    width: auto;
-    overflow: hidden;
-  }
-  .form-container {
-    font-size: 20px;
-    max-height: 100px;
-    margin: 5px 10px;
-    padding: 0px 5px;
-  }
-  .form-message-title {
-    height: 45px;
-  }
-  .form-message-text {
-    max-height: 500px;
-  }
-  .form-container-text {
-    margin: 5px 10px;
-    padding: 0 5px;
-  }
-  .contact-trio {
-    margin-top: 50px;
-  }
-
-  .form-phone-text,
-  .form-subject,
-  .form-message-title,
-  .form-email-text,
-  .form-name {
-    font-size: 24px;
-  }
-  .form-message-text {
-    font-size: 24px;
-  }
-  .form-message-text::placeholder {
-    font-size: 24px;
+    flex: 1;
+    width: 200px;
+    height: 500px;
   }
   .form-message-text-text {
-    font-size: 24px;
+    padding: 0;
   }
-  .form-button {
-    margin: 2px 9px 0 10px;
-    padding: 10px 0 5px 0;
-    width: 98.5%;
+  .contact-us-title {
+    font-size: 34px;
+    left: 10px;
+    top: 20%;
+  }
+  .contact-top-contact-us-slogan {
+    font-size: 22px;
+    left: 10px;
+    top: 8%;
+  }
+  .form-message-text,
+  .form-message-text-text {
+    border-width: 1px !important;
   }
 }
-@media (min-width: 1120px) and (max-width: 1620px) {
-  .form-left {
-    justify-items: center;
+@media (min-width: 801px) and (max-width: 2200px) {
+  .form-image {
+    flex: 1;
+    width: 350px;
+    height: 705px;
+  }
+  .form-container {
+    max-height: 70px;
+  }
+  .form-right-div {
+    padding: 10px;
+    height: 700px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1600px) {
+  .form-container,
+  .form-container-text {
+    max-width: 500px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .form-container,
+  .form-container-text {
+    padding-left: 5%;
+  }
+  .form-right-div {
+    max-width: 600px;
+  }
+}
+@media (min-width: 1601px) and (max-width: 1800px) {
+  .form-right-div {
+    padding-left: 3%;
+  }
+}
+@media (min-width: 1801px) and (max-width: 2200px) {
+  .form-right-div {
+    padding-left: 8%;
+  }
+}
+@media (min-width: 2200px) and (max-width: 3000px) {
+  .form-right-div {
+    padding: 20px 10px 40px 15%;
   }
   .form-image {
-    width: 970%;
-    height: 100%;
-    border-radius: 1%;
+    flex: 1;
+    width: 400px;
+    height: 855px;
   }
 }
