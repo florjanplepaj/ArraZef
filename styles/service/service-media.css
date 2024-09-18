@@ -18,6 +18,24 @@
   .service-body-title {
     height: 70px;
   }
+  .services-top-container {
+    height: 400px;
+  }
+  .service-top-image {
+    height: 400px;
+  }
+
+  .service-top-title {
+    font-size: 60px;
+  }
+
+  .service-top-sub-title {
+    font-size: 40px;
+  }
+
+  .service-top-subtitle {
+    font-size: 28px;
+  }
 }
 @media (min-width: 1700px) and (max-width: 2200px) {
   .service-body-container {

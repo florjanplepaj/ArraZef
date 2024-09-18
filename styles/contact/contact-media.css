@@ -139,4 +139,23 @@
     width: 400px;
     height: 855px;
   }
+
+  .contact-pro-top-container {
+    height: 400px;
+  }
+  .contact-pro-top-image {
+    height: 400px;
+  }
+
+  .contact-pro-top-title {
+    font-size: 60px;
+  }
+
+  .contact-pro-top-sub-title {
+    font-size: 40px;
+  }
+
+  .contact-pro-top-subtitle {
+    font-size: 28px;
+  }
 }
