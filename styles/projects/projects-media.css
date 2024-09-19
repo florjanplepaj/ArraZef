@@ -1,0 +1,106 @@
+@media (min-width: 700px) and (max-width: 1000px) {
+  .projects-page-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects-page-title {
+    font-size: 28px;
+  }
+  .projects-page-view-project-button {
+    font-size: 12px;
+  }
+  .fatt1 {
+    font-size: 20px !important;
+    padding: 6px 15px !important;
+    font-family: Teko, sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease; /* Add 
+    transition for smooth effect */
+  }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+  .projects-page-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects-page-title {
+    font-size: 28px;
+  }
+  .projects-page-view-project-button {
+    font-size: 12px;
+  }
+  .fatt1 {
+    display: none !important;
+  }
+  .projects-pro-top-title {
+    font-size: 35px;
+  }
+  .projects-pro-top-sub-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects-page-body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .fatt1 {
+    display: none !important;
+  }
+  .projects-pro-top-title {
+    font-size: 35px;
+  }
+  .projects-pro-top-sub-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .projects-page-title {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    font-size: 30px;
+  }
+
+  .projects-page-view-project-button {
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+    font-size: 18px;
+  }
+  .projects-pro-top-title {
+    font-size: 35px;
+  }
+  .projects-pro-top-sub-title {
+    font-size: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .projects-page {
+    margin: 10px 2px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 2500px) {
+  .projects-page-title {
+    font-size: 58px;
+  }
+  .projects-page-view-project-button {
+    font-size: 28px;
+  }
+  .fatt1 {
+    font-size: 25px !important;
+    padding: 12px 30px !important;
+    font-family: Teko, sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease; /* Add 
+    transition for smooth effect */
+  }
+  .projects-pro-top-title {
+    font-size: 65px;
+  }
+  .projects-pro-top-sub-title {
+    font-size: 42px;
+  }
+}
