@@ -61,4 +61,10 @@ export const covers = [
       "Image/Projects/pictures-of-pic-4/pic-26.jpg",
     ],
   },
+  {
+    id: "5e38987d-5656-4440-a41d-cf3e4a677a66",
+    image: "Image/Covers/cover-pic-5.jpg",
+    name: "Arra Villa",
+    pics: ["Image/Projects/pictures-of-pic-5/pic-8.jpg"],
+  },
 ];
