@@ -1,4 +1,90 @@
-@media (max-width: 650px) {
+@media (max-width: 400px) {
+  .home-header {
+    grid-template-columns: 1fr;
+    height: 80px;
+  }
+
+  .home-header-top-selection {
+    height: 30px;
+  }
+  .home-header-left-selection {
+    width: 100px; /* Adjusted width */
+    text-align: center;
+    padding-left: 5px;
+    height: 50px;
+  }
+  .home-left-and-right-header {
+    height: 50px;
+    padding-right: 05px;
+  }
+
+  .home-header-right-selection {
+    flex-direction: row; /* Keep items in a row */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+    width: 280px;
+    padding-right: 0px !important;
+  }
+
+  .logo-photos {
+    width: 80px;
+    height: 50px; /* Adjusted width */
+  }
+
+  .arra-zef-logo-1,
+  .arra-zef-logo-2 {
+    width: 80px;
+    height: 50px;
+  }
+
+  .arra-zef-logo-1 {
+    left: 0px;
+    top: 0px;
+  }
+
+  .arra-zef-logo-2 {
+    left: 4px;
+    top: 0px;
+  }
+  .services-text,
+  .projetct-text,
+  .about-text,
+  .contact-text {
+    color: rgb(0, 0, 0);
+    font-size: 12px !important;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0 0px; /* Adjust spacing between text items */
+  }
+
+  .header-link {
+    padding: 0;
+    display: contents;
+    font-size: 12px !important;
+  }
+  .f1 {
+    top: 1px;
+    right: 2%;
+  }
+  .f2 {
+    top: 2px;
+    right: 10%;
+  }
+  .phone-number {
+    right: 20%;
+    top: 5px;
+    font-size: 12px;
+  }
+  .fab {
+    font-size: 12px;
+  }
+  .fass {
+    display: none !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
   .home-header {
     grid-template-columns: 1fr;
     height: 80px;
@@ -23,7 +109,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 0px;
-    width: 150px;
+    width: 280px;
     padding-right: 0px;
   }
 
@@ -100,7 +186,7 @@
     align-items: center;
     gap: 20px;
     margin-left: 30px;
-    width: 350px;
+    width: 400px;
   }
 
   .logo-photos {
@@ -162,14 +248,14 @@
 
   .home-header-left-selection {
     height: 80px;
-    width: 300px;
+    width: 250px;
     background-color: rgb(255, 255, 255);
     padding-left: 0px;
   }
 
   .home-header-right-selection {
     gap: 25px;
-    width: 700px;
+    width: 650px;
     min-width: 225px;
   }
 
@@ -193,7 +279,7 @@
   }
 
   .header-link {
-    padding: 5px 15px;
+    padding: 5px 10px;
   }
   .phone-number {
     font-size: 19px;
@@ -337,5 +423,18 @@
     height: 40px;
     width: 40px;
     font-size: 20px !important;
+  }
+}
+/* Default hover effect for larger screens */
+
+/* Disable hover effect on smaller screens */
+@media (max-width: 768px) {
+  .services-text:hover,
+  .projetct-text:hover,
+  .about-text:hover,
+  .contact-text:hover {
+    color: none; /* Change text color on hover */
+    transform: none; /* Move text 50px to the right and zoom it to 150% */
+    transition: none;
   }
 }

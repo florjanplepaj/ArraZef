@@ -7,7 +7,7 @@ function renderCoverGrid() {
 
   covers.forEach((cover) => {
     coverHtml += `
-      <div class="recent-projects-preview">
+      <div class="recent-projects-preview" data-cover-id="${cover.id}">
         <img class="recent-project-photo" src="${cover.pics[0]}" />
         <span class="recent-project-title">${cover.name}</span>
         <span class="recent-project-view-project-button">View Project</span>
@@ -17,6 +17,13 @@ function renderCoverGrid() {
 
   // Insert the generated HTML into the DOM
   document.querySelector(".js-recent-projects-body").innerHTML = coverHtml;
+  document.querySelectorAll(".recent-projects-preview").forEach((element) => {
+    element.addEventListener("click", (event) => {
+      const coverId = element.dataset.coverId;
+      console.log("hello");
+      window.location.href = `project.html?coverId=${coverId}`;
+    });
+  });
 }
 
 // Set up an IntersectionObserver to trigger when the statistics section is visible

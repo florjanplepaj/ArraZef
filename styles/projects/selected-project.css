@@ -154,7 +154,7 @@
   font-family: Open sans, sans-serif;
   font-size: 57px;
   font-weight: 700;
-  color: rgb(8, 22, 59);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .selected-project-left-location,
@@ -185,4 +185,7 @@
 .selected-project-left-all-projects-button {
   background-color: azure;
   border: 1px solid;
+  background-color: rgb(255, 193, 42);
+  padding: 10px 20px;
+  border-width: 0;
 }
