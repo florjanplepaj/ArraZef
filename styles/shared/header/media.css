@@ -63,25 +63,27 @@
     font-size: 12px !important;
   }
   .f1 {
-    top: 0.5%;
+    top: 1px;
     right: 2%;
   }
   .f2 {
-    top: 0.7%;
+    top: 2px;
     right: 10%;
   }
   .phone-number {
     right: 20%;
-    top: 1%;
+    top: 5px;
+    font-size: 12px;
   }
   .fab {
-    font-size: 19px;
+    font-size: 12px;
   }
   .fass {
     display: none !important;
   }
 }
-@media (min-width: 651px) and (max-width: 800px) {
+
+@media (min-width: 651px) and (max-width: 900px) {
   .home-header {
     grid-template-columns: 1fr; /* Single column layout */
   }
@@ -141,11 +143,11 @@
 @media (min-width: 901px) and (max-width: 1700px) {
   .home-header {
     grid-template-columns: 540px 1fr;
-    height: 170px;
+    height: 120px;
   }
 
   .home-header-top-selection {
-    height: 60px;
+    height: 40px;
   }
 
   .home-left-and-right-header {
@@ -159,7 +161,7 @@
   }
 
   .home-header-left-selection {
-    height: 110px;
+    height: 80px;
     width: 300px;
     background-color: rgb(255, 255, 255);
     padding-left: 0px;
@@ -173,13 +175,13 @@
 
   .logo-photos {
     width: 515px;
-    height: 130px;
+    height: 80px;
     position: relative;
   }
   .arra-zef-logo-1,
   .arra-zef-logo-2 {
-    width: 320px;
-    height: 130px;
+    width: 220px;
+    height: 80px;
     top: 8%;
   }
   .services-text,
@@ -195,24 +197,24 @@
   }
   .phone-number {
     font-size: 19px;
-    top: 2.5%;
+    top: 1%;
   }
   .f1,
   .f2 {
     height: 20px;
     width: 20px;
-    top: 2.5%;
+    top: 1%;
     font-size: 19px !important;
   }
 }
-@media (min-width: 1701px) and (max-width: 2700px) {
+@media (min-width: 1701px) and (max-width: 2200px) {
   .home-header {
     grid-template-columns: 540px 1fr;
-    height: 200px;
+    height: 140px;
   }
 
   .home-header-top-selection {
-    height: 60px;
+    height: 40px;
   }
 
   .home-left-and-right-header {
@@ -226,7 +228,7 @@
   }
 
   .home-header-left-selection {
-    height: 140px;
+    height: 100px;
     width: 600px;
     background-color: rgb(255, 255, 255);
     padding-left: 15px;
@@ -240,13 +242,13 @@
 
   .logo-photos {
     width: 615px;
-    height: 140px;
+    height: 100px;
     position: relative;
   }
   .arra-zef-logo-1,
   .arra-zef-logo-2 {
-    width: 470px;
-    height: 140px;
+    width: 350px;
+    height: 100px;
     top: 10%;
   }
 
@@ -262,12 +264,78 @@
     padding: 10px 50px;
   }
   .phone-number {
-    font-size: 29px;
+    font-size: 20px;
   }
   .f1,
   .f2 {
     height: 40px;
     width: 40px;
-    font-size: 29px !important;
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 2201px) and (max-width: 3200px) {
+  .home-header {
+    grid-template-columns: 540px 1fr;
+    height: 140px;
+  }
+
+  .home-header-top-selection {
+    height: 40px;
+  }
+
+  .home-left-and-right-header {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / span 2;
+  }
+
+  .logo-link {
+    display: contents;
+  }
+
+  .home-header-left-selection {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+  }
+
+  .home-header-right-selection {
+    gap: 35px;
+    width: 1000px;
+    min-width: 225px;
+  }
+
+  .logo-photos {
+    width: 615px;
+    height: 100px;
+    position: relative;
+  }
+  .arra-zef-logo-1,
+  .arra-zef-logo-2 {
+    width: 350px;
+    height: 100px;
+    top: 10%;
+  }
+
+  .services-text,
+  .projetct-text,
+  .about-text,
+  .contact-text {
+    color: rgb(0, 0, 0);
+    font-size: 30px !important; /* Adjust font size for smaller screens */
+  }
+
+  .header-link {
+    padding: 10px 50px;
+  }
+  .phone-number {
+    font-size: 20px;
+  }
+  .f1,
+  .f2 {
+    height: 40px;
+    width: 40px;
+    font-size: 20px !important;
   }
 }

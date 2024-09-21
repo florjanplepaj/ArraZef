@@ -1,0 +1,485 @@
+@media (min-width: 300px) and (max-width: 700px) {
+  .selected-project {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Set the right container at the top */
+  .selected-project-right-container {
+    order: 1; /* This will place it at the top */
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  /* Set the left container below the right one */
+  .selected-project-left-container {
+    order: 2; /* This will place it below the right container */
+    padding: 10px 20px;
+    place-self: center;
+    height: 200px;
+    row-gap: 10px;
+  }
+
+  .selected-project-left-title {
+    font-size: 30px;
+  }
+
+  .selected-project-left-location {
+    font-size: 16px;
+  }
+
+  .selected-project-left-location-text {
+    font-size: 16px;
+  }
+
+  .selected-project-left-all-projects-button {
+    font-size: 12px;
+  }
+  .selected-project-right-top-container {
+    flex: 4;
+  }
+
+  .selected-project-right-bottom-container {
+    flex: 1;
+    max-width: 100%;
+    height: 30px;
+  }
+
+  .choosed-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .top-left-button-slider,
+  .top-right-button-slider {
+    padding: 10px 20px;
+  }
+
+  .selected-project-left-all-projects {
+    font-size: 12px;
+  }
+
+  .fas {
+    font-size: 12px;
+  }
+  .top-left-button-slider,
+  .top-right-button-slider {
+    padding: 5px 10px;
+  }
+  .unselected-pic {
+    flex: 1;
+    flex-shrink: 0;
+    height: 100%;
+    max-height: 100px;
+    max-width: 100px !important;
+    width: 100%;
+    cursor: pointer;
+  }
+  .bottom-left-button-slider,
+  .bottom-right-button-slider {
+    padding: 0;
+    width: 10px;
+  }
+  .fatt5 {
+    top: 25%;
+    left: 0px;
+  }
+  .fatt6 {
+    top: 25%;
+    right: 0px;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .selected-project {
+    height: 100%;
+  }
+  .selected-project-left-title {
+    font-size: 20px;
+  }
+  .selected-project-left-location {
+    font-size: 14px;
+  }
+  .selected-project-left-location-text {
+    font-size: 14px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 12px;
+  }
+  .selected-project-left-container {
+    padding: 10px 20px;
+    place-self: center;
+    height: 200px;
+    row-gap: 10px;
+  }
+
+  .selected-project-right-container {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  .selected-project-right-top-container {
+    flex: 4;
+  }
+  .selected-project-right-bottom-container {
+    flex: 1;
+    max-width: 100%;
+    height: 30px;
+  }
+  .choosed-pic {
+    width: 100%;
+    height: auto;
+  }
+  .top-left-button-slider,
+  .top-right-button-slider {
+    padding: 10px 20px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 12px;
+  }
+  .fas {
+    font-size: 14px !important;
+  }
+  .unselected-pic {
+    flex: 1;
+    flex-shrink: 0;
+    height: 100%;
+    max-height: 100px;
+    max-width: 100px !important;
+    width: 100%;
+    cursor: pointer;
+  }
+  .bottom-left-button-slider,
+  .bottom-right-button-slider {
+    padding: 0;
+    width: 10px;
+  }
+  .fatt5 {
+    top: 25%;
+    left: 0px;
+  }
+  .fatt6 {
+    top: 25%;
+    right: 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .selected-project {
+    height: 100%;
+  }
+  .selected-project-left-title {
+    font-size: 20px;
+  }
+  .selected-project-left-location {
+    font-size: 14px;
+  }
+  .selected-project-left-location-text {
+    font-size: 14px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 12px;
+  }
+  .selected-project-left-container {
+    padding: 10px 20px;
+    place-self: center;
+    height: 200px;
+
+    row-gap: 10px;
+  }
+
+  .selected-project-right-container {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  .selected-project-right-top-container {
+    flex: 4;
+  }
+  .selected-project-right-bottom-container {
+    flex: 1;
+    max-width: 100%;
+    height: 30px;
+  }
+  .choosed-pic {
+    width: 100%;
+    height: auto;
+  }
+  .top-left-button-slider,
+  .top-right-button-slider {
+    padding: 10px 20px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 12px;
+  }
+  .fas {
+    font-size: 14px !important;
+  }
+  .unselected-pic {
+    flex: 1;
+    flex-shrink: 0;
+    height: 100%;
+    max-height: 100px;
+    max-width: 100px !important;
+    width: 100%;
+    cursor: pointer;
+  }
+  .bottom-left-button-slider,
+  .bottom-right-button-slider {
+    padding: 0;
+    width: 10px;
+  }
+  .fatt5 {
+    top: 25%;
+    left: 0px;
+  }
+  .fatt6 {
+    top: 25%;
+    right: 0px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .selected-project {
+    height: 100%;
+  }
+  .selected-project-left-title {
+    font-size: 30px;
+  }
+  .selected-project-left-location {
+    font-size: 16px;
+  }
+  .selected-project-left-location-text {
+    font-size: 16px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 12px;
+  }
+  .selected-project-left-container {
+    padding: 10px 20px;
+    place-self: center;
+    height: 200px;
+  }
+
+  .selected-project-right-container {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  .selected-project-right-top-container {
+    flex: 4;
+  }
+  .selected-project-right-bottom-container {
+    flex: 1;
+    max-width: 100%;
+    height: 30px;
+  }
+  .choosed-pic {
+    width: 100%;
+    height: auto;
+  }
+  .top-left-button-slider,
+  .top-right-button-slider {
+    padding: 10px 20px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 12px;
+  }
+  .fas {
+    font-size: 12px;
+  }
+  .unselected-pic {
+    flex: 1;
+    flex-shrink: 0;
+    height: 100%;
+    max-height: 100px;
+    max-width: 120px !important;
+    width: 100%;
+    cursor: pointer;
+  }
+  .bottom-left-button-slider,
+  .bottom-right-button-slider {
+    padding: 0;
+    width: 10px;
+  }
+  .fatt5 {
+    top: 25%;
+    left: 0px;
+  }
+  .fatt6 {
+    top: 25%;
+    right: 0px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .selected-project {
+    height: 100%;
+  }
+  .selected-project-left-title {
+    font-size: 35px;
+  }
+  .selected-project-left-location {
+    font-size: 16px;
+  }
+  .selected-project-left-location-text {
+    font-size: 16px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 16px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 16px;
+  }
+  .fas {
+    font-size: 18px !important;
+  }
+  .unselected-pic {
+    flex: 1;
+    flex-shrink: 0;
+    height: 100%;
+    max-height: 100px;
+    max-width: 130px !important;
+    width: 100%;
+    cursor: pointer;
+  }
+  .bottom-left-button-slider,
+  .bottom-right-button-slider {
+    padding: 0;
+    width: 10px;
+  }
+  .fatt5 {
+    top: 25%;
+    left: 0px;
+  }
+  .fatt6 {
+    top: 25%;
+    right: 0px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .selected-project {
+    height: 600px;
+  }
+  .selected-project-left-title {
+    font-size: 45px;
+  }
+  .selected-project-left-location {
+    font-size: 20px;
+  }
+  .selected-project-left-location-text {
+    font-size: 20px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 20px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 20px;
+  }
+  .fas {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 1500px) and (max-width: 2000px) {
+  .selected-project {
+    height: 550px;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .selected-project {
+    height: 850px;
+  }
+  .selected-project-left-container {
+    height: 400px;
+  }
+  .selected-project-right-top-container {
+    height: 650px;
+  }
+  .selected-project-right-bottom-container {
+    height: 200px;
+  }
+  .selected-project-right-container {
+    height: 850px;
+  }
+  .bottom-right-pic-container {
+    max-height: 150px;
+  }
+  .unselected-pic {
+    height: 100%;
+    max-height: 200px;
+    max-width: 300px;
+  }
+  .selected-project-right-bottom-container {
+    max-height: 200px;
+  }
+  .selected-project-left-title {
+    font-size: 75px;
+  }
+  .selected-project-left-location {
+    font-size: 40px;
+  }
+  .selected-project-left-location-text {
+    font-size: 40px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 40px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 40px;
+  }
+  .fas {
+    font-size: 40px !important;
+  }
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  .selected-project {
+    height: 900px;
+  }
+  .selected-project-left-container {
+    height: 400px;
+  }
+  .selected-project-right-top-container {
+    height: 750px;
+  }
+  .selected-project-right-bottom-container {
+    height: 200px;
+  }
+  .selected-project-right-container {
+    height: 800px;
+  }
+  .bottom-right-pic-container {
+    max-height: 200px;
+  }
+  .unselected-pic {
+    height: 100%;
+    max-height: 200px;
+    max-width: 300px;
+  }
+  .selected-project-right-bottom-container {
+    max-height: 200px;
+  }
+  .selected-project-left-title {
+    font-size: 75px;
+  }
+  .selected-project-left-location {
+    font-size: 40px;
+  }
+  .selected-project-left-location-text {
+    font-size: 40px;
+  }
+  .selected-project-left-all-projects-button {
+    font-size: 40px;
+  }
+  .selected-project-left-all-projects {
+    font-size: 40px;
+  }
+  .fas {
+    font-size: 40px !important;
+  }
+}

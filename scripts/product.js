@@ -10,9 +10,11 @@ function renderCoverGridProjects() {
             <img class="projects-page-photo" src="${cover.image}" />
             <span class="projects-page-title">${cover.name}</span>
             <span class="projects-page-view-project-button">View Project</span>
+            <a href="project.html">
             <button class="projects-page-button-go-to">
               <i aria-hidden="true" class="fatt1 fas fa-angle-double-right"></i>
             </button>
+            </a>
           </div>
     `;
   });
