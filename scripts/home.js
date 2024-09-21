@@ -8,7 +8,7 @@ function renderCoverGrid() {
   covers.forEach((cover) => {
     coverHtml += `
       <div class="recent-projects-preview">
-        <img class="recent-project-photo" src="${cover.image}" />
+        <img class="recent-project-photo" src="${cover.pics[0]}" />
         <span class="recent-project-title">${cover.name}</span>
         <span class="recent-project-view-project-button">View Project</span>
       </div>
