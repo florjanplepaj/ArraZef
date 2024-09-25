@@ -63,14 +63,7 @@
     display: contents;
     font-size: 12px !important;
   }
-  .f1 {
-    top: 1px;
-    right: 2%;
-  }
-  .f2 {
-    top: 2px;
-    right: 10%;
-  }
+
   .phone-number {
     right: 20%;
     top: 5px;
@@ -78,9 +71,20 @@
   }
   .fab {
     font-size: 12px;
+    padding: 7px 0 0 0;
   }
   .fass {
     display: none !important;
+  }
+  .home-header-top-selection-items {
+    width: 200px;
+  }
+  .flag,
+  .flag2 {
+    height: 18px;
+    width: 35px;
+    padding: 0;
+    margin: 0 5px 0 0;
   }
 }
 
@@ -148,24 +152,26 @@
     display: contents;
     font-size: 12px !important;
   }
-  .f1 {
-    top: 1px;
-    right: 2%;
-  }
-  .f2 {
-    top: 2px;
-    right: 10%;
-  }
+
   .phone-number {
-    right: 20%;
-    top: 5px;
     font-size: 12px;
   }
   .fab {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 6px 0 0 0;
   }
   .fass {
     display: none !important;
+  }
+  .home-header-top-selection-items {
+    width: 200px;
+  }
+  .flag,
+  .flag2 {
+    height: 18px;
+    width: 35px;
+    padding: 0;
+    margin: 0 5px 0 0;
   }
 }
 
@@ -215,15 +221,24 @@
   }
   .fab {
     font-size: 19px !important;
+    padding: 0;
   }
-  .f1 {
-    right: 1%;
-  }
+
   .fass {
     display: none !important;
   }
   .title-cover-text {
     padding-left: 10%;
+  }
+  .home-header-top-selection-items {
+    width: 280px;
+  }
+  .flag,
+  .flag2 {
+    height: 20px;
+    width: 40px;
+    padding: 0;
+    margin: 5px;
   }
 }
 @media (min-width: 901px) and (max-width: 1700px) {

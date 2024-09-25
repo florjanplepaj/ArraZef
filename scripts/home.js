@@ -50,10 +50,10 @@ if (statsSection) {
 
 // Function to start the counters when the section is visible
 function statisticNumbers() {
-  startCounter(".js-years-experience", 1, 15, 1, 30);
-  startCounter(".js-employers-over-the-years", 1, 170, 5, 30);
-  startCounter(".js-residential-complete", 1, 690, 10, 30);
-  startCounter(".js-millions-investment-complete", 1, 370, 5, 30);
+  startCounter(".js-years-experience", 1, 25, 1, 30);
+  startCounter(".js-employers-over-the-years", 1, 60, 5, 30);
+  startCounter(".js-residential-complete", 1, 120, 10, 30);
+  startCounter(".js-millions-investment-complete", 1, 20, 5, 30);
 }
 
 // Function to start the counter animation

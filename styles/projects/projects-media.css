@@ -45,9 +45,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .fatt1 {
-    display: none !important;
-  }
   .projects-pro-top-title {
     font-size: 35px;
   }
