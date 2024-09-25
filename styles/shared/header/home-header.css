@@ -20,7 +20,7 @@
 .home-header-top-selection-items {
   display: flex;
   flex-direction: row;
-  width: 330px;
+  width: 360px;
   align-items: center;
 }
 .home-left-and-right-header {
@@ -123,6 +123,12 @@
   width: 50px;
   padding: 0;
   margin: 5px;
+}
+.flag:focus,
+.flag2:focus {
+  border-color: white;
+  border-width: 1px;
+  padding: 2px;
 }
 .flag {
   right: 17%;

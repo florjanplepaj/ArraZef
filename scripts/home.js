@@ -1,4 +1,5 @@
 import { getCover, covers } from "../Data/projects-covers.js";
+import { languageEn, languageIt } from "./language.js";
 
 // Function to render the cover grid
 renderCoverGrid();
@@ -10,7 +11,7 @@ function renderCoverGrid() {
       <div class="recent-projects-preview" data-cover-id="${cover.id}">
         <img class="recent-project-photo" src="${cover.pics[0]}" />
         <span class="recent-project-title">${cover.name}</span>
-        <span class="recent-project-view-project-button">View Project</span>
+        <span class="recent-project-view-project-button js-recent-project-view-project-button">Vedi Progetto</span>
       </div>
     `;
   });
@@ -80,3 +81,5 @@ function startCounter(elementId, start, target, increment, duration) {
     }
   }, duration);
 }
+languageEn();
+languageIt();

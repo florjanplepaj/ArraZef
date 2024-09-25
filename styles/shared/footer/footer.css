@@ -214,6 +214,7 @@
   padding-top: 45px;
 }
 .footer-line {
+  margin-left: 15px;
   width: 90%;
   height: 3px;
   background-color: wheat;

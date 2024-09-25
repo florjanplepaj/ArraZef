@@ -289,27 +289,37 @@
 
 .service-kind-items-construction:hover {
   background-image: url("../../Image/Logos/services-phtot-5.jpg");
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .service-kind-items-maintenance:hover {
   background-image: url("../../Image/Logos/services-phtot-3.jpg");
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .service-kind-items-renovation:hover {
   background-image: url("../../Image/Logos/services-phtot-1.jpg");
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .service-kind-items-restoration:hover {
   background-image: url("../../Image/Logos/services-phtot-4.jpg");
-  color: black;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .service-kind-items-keys:hover {
   background-image: url("../../Image/Logos/services-phtot-2.jpg");
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .service-kind-items-photo {
