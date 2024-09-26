@@ -36,18 +36,31 @@
     <header>
       <div class="home-header">
         <div class="home-header-top-selection">
-          <a href="tel:+393494628225" class="phone-number">+39 349 462 8225</a>
-          <a
-            href="https://www.facebook.com/share/158Rdn1i5f/?mibextid=qi2Omg"
-            target="_blank"
-            class="fab fa-facebook f1"
-            target="_blank"
-          ></a>
-          <a
-            href="https://www.instagram.com/arra_costruzioni?igsh=MW5ra3doY3NzZjZyZw=="
-            target="_blank"
-            class="fab fa-instagram f2"
-          ></a>
+          <div class="home-header-top-selection-items">
+            <button class="flag js-flag-1">
+              <img
+                class="flag-1"
+                src="Image/Logos/flag-uk.svg"
+                alt="english-flag-logo"
+              />
+            </button>
+            <button class="flag2 js-flag-2">
+              <img
+                class="flag-2"
+                src="Image/Logos/flag-it.svg"
+                alt="italian-flag-logo"
+              />
+            </button>
+            <a href="tel:+393494628225" class="phone-number"
+              >+39 349 462 8225</a
+            >
+
+            <a
+              href="https://www.instagram.com/arra_costruzioni?igsh=MW5ra3doY3NzZjZyZw=="
+              target="_blank"
+              class="fab fa-instagram f2"
+            ></a>
+          </div>
         </div>
         <div class="home-left-and-right-header">
           <div class="home-header-left-selection">
@@ -61,19 +74,19 @@
 
           <div class="home-header-right-selection">
             <a class="header-link" href="home.html">
-              <span class="about-text">Home</span>
+              <span class="about-text js-about-text">Home</span>
             </a>
             <a class="header-link" href="about.html">
-              <span class="about-text">About</span>
+              <span class="about-text js-about-text">Chi Siamo</span>
             </a>
             <a class="header-link" href="projects.html">
-              <span class="projetct-text">Projects</span>
+              <span class="projetct-text js-about-text">Progetti</span>
             </a>
             <a class="header-link" href="services.html">
-              <span class="services-text">Services</span>
+              <span class="services-text js-about-text">Servizi</span>
             </a>
             <a class="header-link" href="contact.html">
-              <span class="contact-text">Contact</span>
+              <span class="contact-text js-about-text">Contatti</span>
             </a>
           </div>
         </div>
@@ -118,7 +131,7 @@
               </div>
               <div class="footer-left-container-title-body">
                 <span class="footer-left-container-title"
-                  >Arra Zef Construction SLR</span
+                  >Arra Costruzioni SRL</span
                 >
               </div>
 
@@ -141,8 +154,8 @@
             </div>
           </div>
           <div class="footer-center-container">
-            <div class="footer-center-titile">
-              Contact Info
+            <div class="footer-center-titile js-footer-center-titile">
+              Informazioni di Contatto
               <div class="footer-line"></div>
             </div>
             <div class="footer-center-body">
@@ -154,15 +167,15 @@
               </div>
               <div class="footer-center-contact-email">
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:florjan.plepaj@gmail.com" class="email"
-                  >florjan.plepaj@gmail.com</a
+                <a href="mailto:arrazef@gmail.com" class="email"
+                  >arrazef@gmail.com</a
                 >
               </div>
             </div>
           </div>
           <div class="footer-right-container">
             <div class="footer-right-titile">
-              Address
+              Indirizzo
               <div class="footer-line"></div>
             </div>
             <div class="footer-right-body">
@@ -179,7 +192,7 @@
           </div>
           <div class="footer-right-menu-container">
             <div class="footer-right-menu-title">
-              Company
+              Azienda
               <div class="footer-line"></div>
             </div>
 
@@ -199,7 +212,7 @@
                       >&#707;
                     </span>
                     <span class="footer-right-menu-body-text-text"
-                      >About</span
+                      >Chi Siamo</span
                     ></a
                   >
                 </div>
@@ -209,7 +222,7 @@
                       >&#707;
                     </span>
                     <span class="footer-right-menu-body-text-text"
-                      >Projects</span
+                      >Progetti</span
                     ></a
                   >
                 </div>
@@ -219,7 +232,7 @@
                       >&#707;
                     </span>
                     <span class="footer-right-menu-body-text-text"
-                      >Services</span
+                      >Servizi</span
                     ></a
                   >
                 </div>
@@ -229,7 +242,7 @@
                       >&#707;
                     </span>
                     <span class="footer-right-menu-body-text-text"
-                      >Contact</span
+                      >Contatti</span
                     ></a
                   >
                 </div>
@@ -252,5 +265,6 @@
       </div>
     </footer>
     <script src="/scripts/specific-project.js" type="module"></script>
+    <script src="scripts/language.js"></script>
   </body>
 </html>

@@ -1,6 +1,4 @@
 import { getCover, covers } from "../Data/projects-covers.js";
-import { languageEn, languageIt } from "./language.js";
-
 // Function to render the cover grid
 renderCoverGrid();
 function renderCoverGrid() {
@@ -81,5 +79,3 @@ function startCounter(elementId, start, target, increment, duration) {
     }
   }, duration);
 }
-languageEn();
-languageIt();

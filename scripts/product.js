@@ -8,7 +8,7 @@ function renderCoverGridProjects() {
     <div class="projects-page-preview">
             <img class="projects-page-photo" src="${cover.pics[0]}" />
             <span class="projects-page-title">${cover.name}</span>
-            <span class="projects-page-view-project-button">View Project</span>
+            <span class="projects-page-view-project-button js-projects-page-view-project-button">Vedi Progetto</span>
           
             <button class="projects-page-button-go-to js-projects-page-button-go-to" data-cover-id = "${cover.id}" data-cover-name = "${cover.name}">
               <i aria-hidden="true" class="fatt1 fas fa-angle-double-right"></i>

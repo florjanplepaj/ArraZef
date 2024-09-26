@@ -14,15 +14,15 @@ export function renderSelectedProject() {
   const selectedProjectHTML = `
     <div class="selected-project-left-container">
       <span class="selected-project-left-title">${matchingProject.name}</span>
-      <span class="selected-project-left-location">
-        Location: <span class="selected-project-left-location-text">${
+      <span class="selected-project-left-location js-selected-project-left-location">
+        Sede: <span class="selected-project-left-location-text">${
           matchingProject.location
         }</span>
       </span>
       <a class="selected-project-left-location" href="projects.html">
         <button class="selected-project-left-all-projects-button">
           <i aria-hidden="true" class="fatt8 fas fa-angle-double-left"></i>
-          <span class="selected-project-left-all-projects">All projects</span>
+          <span class="selected-project-left-all-projects js-selected-project-left-all-projects">Tutti i progetti</span>
         </button>
       </a>
     </div>

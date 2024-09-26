@@ -94,6 +94,7 @@
   padding: 10px 20px;
   font-family: "Open Sans", sans-serif;
   transition: border-radius 0.5s, background-color 1.5s;
+  text-wrap: nowrap;
 }
 .services-text:hover,
 .projetct-text:hover,
