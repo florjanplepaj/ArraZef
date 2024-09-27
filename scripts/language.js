@@ -108,6 +108,13 @@ const translations = {
     contactMeth: [`Location`, "Email", `Phone`],
 
     projectLoc: [`All projects`],
+    copyRight: [
+      `&copy; Copyright 2024 Arra Zef SRL. All Rights Reserved. Images by
+            <a class="freepik" href="https://www.freepik.com" target="_blank">
+              Freepik</a
+            >`,
+      `Construction Web Design by Florjan Plepaj`,
+    ],
   },
   it: {
     bodyText:
@@ -220,6 +227,13 @@ const translations = {
     ],
     contactMeth: [`Posizione`, `Email`, `Telefono`],
     projectLoc: [`Tutti i progetti`],
+    copyRight: [
+      `&copy; Copyright 2024 Arra Zef SRL. Tutti i diritti riservati. Immagini di
+            <a class="freepik" href="https://www.freepik.com" target="_blank">
+              Freepik</a
+            >`,
+      `Design Web per l'edilizia di Florjan Plepaj`,
+    ],
   },
 };
 
@@ -361,6 +375,15 @@ function updateLanguage(language) {
     ".js-selected-project-left-all-projects"
   );
   if (projectTuttiEle) projectTuttiEle.innerText = langData.projectLoc;
+
+  const copyRightElement = document.querySelector(".js-footer-bottom-left");
+  if (copyRightElement) copyRightElement.innerHTML = langData.copyRight[0];
+
+  const copyRightElementRight = document.querySelector(
+    ".js-footer-bottom-right"
+  );
+  if (copyRightElementRight)
+    copyRightElementRight.innerText = langData.copyRight[1];
 }
 
 // Function to handle Italian language selection
